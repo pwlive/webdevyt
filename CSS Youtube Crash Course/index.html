@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>CSS</title>
+    <!-- Internal CSS -->
+    <style>
+        /* p{
+            background-color: #25a71b;
+            color: white;
+            padding: 10px;
+        } */
+        /* Class Selector */
+        /* .line1{
+            background-color: black;
+        }
+        .line2{
+            background-color: pink;
+        }
+        #line3{
+            background-color: yellow;
+        } */
+      /* Attribute Selector */
+      /* input[type="text"]{
+        padding: 10px;
+        background-color: red; 
+      } */
+      /* Psedudo Selector */
+      /* button:hover{
+        background-color: yellow;
+        padding: 10px;
+        border: 2px dashed red;
+      } */
+      /* Selector List */
+      /* h1, p{
+        background-color: brown;
+      } */
+      .stlying{
+        color: red;
+        background-color: black;
+        /* padding-top:100px ;
+        padding-bottom: 100px;
+        padding-right: 100px;
+        padding-left: 100px; */
+        /* padding: 100px 10px 25px 200px;  */
+        /* border: 5px solid yellow; */
+        /* border-width: 2px;
+        border-style: dashed;
+        border-color: pink; */
+        /* padding, Margin, border */
+       }
+       .txt{
+        /* text-decoration: line-through;  */
+        text-transform:uppercase;
+        text-align: center;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 25px;
+       }
+       /* Flex Box */
+       .container{
+        display: flex;
+        flex-direction: row;
+        border: 1px solid black;
+        /* justify-content:center; */
+        /* align-items: center; */
+        /* gap: 100px 10px; */
+
+       }
+       .box{
+        height: 100px;
+        width: 100px;
+        border: 1px solid black;
+        /* margin: 7px; */
+       }
+       .cont-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* grid-template-rows: 1000px 1000px; */
+        border: 1px solid red;
+        /* gap: 10px 200px; */
+        row-gap: 10px;
+        column-gap: 20px;
+       }
+       .grid-items{
+        height: 100px;
+        /* width: 100px; */
+        border: 2px solid black;
+       }
+       .one{
+        grid-column-start: 1;
+        grid-column-end: 4;
+       }
+       .two{
+        grid-row-start: 2;
+        grid-row-end: 4;
+       }
+       
+    </style>
+</head>
+<body>
+    <h1>PW SKIlls</h1>
+    <!-- Inline CSS -->
+    <!-- <p style="background-color: yellow; color: red;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, omnis!</p> -->
+    <!-- Internal CSS -->
+    <!-- <p>Internal - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, dolore.</p> -->
+    <!-- External CSS -->
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, tempora!</p>
+     Class Sel -->
+    <!-- <p class="line1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, tempora!</p>
+    <p id="line3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, tempora!</p>
+    <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, tempora!</p>
+    <p class="line2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, tempora!</p>
+    <input type="password">
+    <button>Hover Me</button> -->
+    
+    <!-- CSS Styling -->
+    <!-- <p class="stlying">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae tempore molestias consequuntur beatae eum nesciunt cupiditate! Blanditiis, possimus eius quod dicta earum ab accusamus explicabo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, veritatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, quis.</p> -->
+    <!-- <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+
+    <!-- Flex Box -->
+    <!-- <div class="container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+    </div> -->
+
+    <!-- Grid -->
+    <div class="cont-grid">
+      <div class="grid-items one"></div>
+      <div class="grid-items two"></div>
+      <div class="grid-items"></div>
+      <div class="grid-items"></div>
+      <div class="grid-items"></div>
+      <div class="grid-items"></div>
+      <div class="grid-items"></div>
+      <div class="grid-items"></div>
+      <div class="grid-items"></div>
+    </div> 
+    
+</body>
+</html>
